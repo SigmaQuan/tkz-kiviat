@@ -17,8 +17,10 @@
 % Objet :  kiviat chart or diagram
 
 \NeedsTeXFormat{LaTeX2e}
-\ProvidesPackage{tkz-kiviat}[2011/06/07 v0.1]
-\RequirePackage{etex} 
+\ProvidesPackage{tkz-kiviat}[2018/09/19 v0.1 b]
+\ifx\e@alloc\@undefined
+  \RequirePackage{etex}
+\fi
 \RequirePackage{tikz}
 \usetikzlibrary{backgrounds}
 %<--------------------------------------------------------------------------->
